@@ -11,6 +11,7 @@
 ,
 		"rect" : [ 174.0, 146.0, 696.0, 533.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -260,6 +261,7 @@
 ,
 						"rect" : [ 861.0, 290.0, 180.0, 131.0 ],
 						"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -394,6 +396,7 @@
 				"box" : 				{
 					"angle" : 0.0,
 					"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 					"border" : 2,
 					"bordercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"id" : "obj-25",

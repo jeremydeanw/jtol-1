@@ -11,6 +11,7 @@
 ,
 		"rect" : [ 100.0, 100.0, 760.0, 520.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -244,6 +245,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial Bold",
 					"fontsize" : 18.0,

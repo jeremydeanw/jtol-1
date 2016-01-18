@@ -11,6 +11,7 @@
 ,
 		"rect" : [ 98.0, 96.0, 1277.0, 703.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -1394,6 +1395,7 @@
 ,
 						"rect" : [ 267.0, 45.0, 967.0, 776.0 ],
 						"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -1752,6 +1754,7 @@
 ,
 										"rect" : [ 25.0, 69.0, 138.0, 151.0 ],
 										"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 9.0,
@@ -1938,6 +1941,7 @@
 ,
 										"rect" : [ 25.0, 69.0, 138.0, 151.0 ],
 										"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 9.0,
@@ -2120,6 +2124,7 @@
 								"box" : 								{
 									"activecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 									"disabled" : [ 0 ],
 									"id" : "obj-101",
 									"itemtype" : 1,
@@ -2155,6 +2160,7 @@
 								"box" : 								{
 									"activecolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 									"disabled" : [ 0 ],
 									"id" : "obj-88",
 									"itemtype" : 1,
@@ -2194,6 +2200,7 @@
 ,
 										"rect" : [ 792.0, 209.0, 217.0, 269.0 ],
 										"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 9.0,
@@ -2655,6 +2662,7 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"id" : "obj-24",
 									"maxclass" : "panel",
@@ -3073,6 +3081,7 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"id" : "obj-4",
 									"maxclass" : "panel",
@@ -3089,6 +3098,7 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"id" : "obj-15",
 									"maxclass" : "panel",
@@ -3105,6 +3115,7 @@
 								"box" : 								{
 									"angle" : 0.0,
 									"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 									"bordercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"id" : "obj-25",
 									"maxclass" : "panel",

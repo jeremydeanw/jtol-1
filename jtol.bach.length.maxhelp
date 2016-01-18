@@ -10,10 +10,11 @@
 		}
 ,
 		"rect" : [ 100.0, 100.0, 606.0, 367.0 ],
-		"bgcolor" : [ 0.282353, 0.282353, 0.282353, 1.0 ],
+		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
+		"default_fontsize" : 9.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
 		"gridonopen" : 1,

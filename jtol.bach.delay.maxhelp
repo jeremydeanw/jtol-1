@@ -3,14 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
 		"rect" : [ 100.0, 100.0, 709.0, 517.0 ],
-		"bgcolor" : [ 0.282353, 0.282353, 0.282353, 1.0 ],
+		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -117,7 +118,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 202.5, 391.0, 77.0, 22.0 ],
 					"style" : "",
-					"text" : "166.666672",
+					"text" : "666.666687",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -367,7 +368,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 102.0, 453.5, 77.0, 22.0 ],
+					"patching_rect" : [ 90.0, 443.5, 77.0, 22.0 ],
 					"style" : "",
 					"text" : "( 1 ( 1 1 1 ) )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -376,15 +377,12 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-					"blinkcolor" : [ 1.0, 0.890196, 0.090196, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
-					"patching_rect" : [ 120.0, 391.0, 53.0, 53.0 ],
+					"patching_rect" : [ 120.0, 391.0, 47.0, 47.0 ],
 					"style" : ""
 				}
 
@@ -482,15 +480,12 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-					"blinkcolor" : [ 1.0, 0.890196, 0.090196, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"outlinecolor" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
-					"patching_rect" : [ 58.0, 194.0, 53.0, 53.0 ],
+					"patching_rect" : [ 58.0, 194.0, 47.0, 47.0 ],
 					"style" : ""
 				}
 
@@ -1163,7 +1158,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }

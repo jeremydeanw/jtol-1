@@ -11,6 +11,7 @@
 ,
 		"rect" : [ 660.0, 75.0, 481.0, 708.0 ],
 		"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
