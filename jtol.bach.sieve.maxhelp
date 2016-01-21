@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 361.0, 142.0, 1119.0, 815.0 ],
+		"rect" : [ 432.0, 123.0, 1119.0, 863.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,288 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 467.0, 566.0, 81.0, 27.0 ],
+					"presentation_rect" : [ 506.0, 649.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "bang when grid does not fit at all",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-16",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 441.0, 566.0, 24.0, 24.0 ],
+					"presentation_rect" : [ 480.0, 644.5, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 1,
+							"revision" : 0,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 1030.0, 96.0, 272.0, 324.0 ],
+						"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
+						"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 9.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 0,
+						"toolbarvisible" : 0,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 43.333344, 264.833313, 146.0, 27.0 ],
+									"presentation_rect" : [ 37.333344, 264.833313, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "rest on the left outlet and bang on the second one",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-7",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 165.333344, 228.833313, 24.0, 24.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 43.333344, 114.833313, 107.0, 17.0 ],
+									"style" : "",
+									"text" : "bang several times here",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 165.333344, 106.0, 48.0, 19.0 ],
+									"style" : "",
+									"text" : "loadbang",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 13.0,
+									"id" : "obj-2",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 165.333344, 133.833313, 60.0, 23.0 ],
+									"presentation_rect" : [ 393.333344, 277.833313, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "( -1 1 1 )"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 13.0,
+									"id" : "obj-1",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 43.333344, 133.833313, 82.0, 23.0 ],
+									"presentation_rect" : [ 141.333344, 277.833313, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "( 1 ( 1 1 1 ) )"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 13.0,
+									"id" : "obj-59",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 43.333344, 228.833313, 91.0, 23.0 ],
+									"style" : "",
+									"text" : "( 1 ( 1 -1 -1 ) )"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontsize" : 14.0,
+									"id" : "obj-61",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 43.333344, 36.833313, 170.0, 38.0 ],
+									"style" : "",
+									"text" : "What happens when no onset fits with the grid",
+									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
+									"fontface" : 0,
+									"fontname" : "Arial",
+									"fontsize" : 13.0,
+									"id" : "obj-11",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "bang" ],
+									"patching_rect" : [ 43.333344, 181.0, 141.0, 23.0 ],
+									"style" : "",
+									"text" : "jtol.bach.sieve @out tx",
+									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"destination" : [ "obj-59", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-11", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"destination" : [ "obj-11", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 30.0, 808.5, 233.0, 29.0 ],
+					"presentation_rect" : [ 30.0, 819.5, 0.0, 0.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"fontsize" : 9.0,
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p no_result_case",
+					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-9",
 					"linecount" : 2,
@@ -420,7 +702,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 530.0, 119.0, 922.0, 736.0 ],
+						"rect" : [ 476.0, 177.0, 922.0, 736.0 ],
 						"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 						"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 						"bglocked" : 0,
@@ -501,13 +783,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-59",
+									"ignoreclick" : 1,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 378.666687, 355.833313, 202.333313, 19.0 ],
-									"style" : "",
-									"text" : "1 1/2 1/2 1 2 1 1/2 1/2 1 2"
+									"style" : ""
 								}
 
 							}
@@ -668,7 +950,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 110.166679, 416.5, 38.0, 47.0 ],
+									"patching_rect" : [ 110.166679, 424.5, 38.0, 47.0 ],
 									"style" : "",
 									"text" : "3",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -683,7 +965,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 531.833374, 251.5, 38.0, 47.0 ],
+									"patching_rect" : [ 520.833374, 368.5, 38.0, 47.0 ],
 									"style" : "",
 									"text" : "2",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -1291,9 +1573,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 410.333344, 607.833313, 43.0, 19.0 ],
+									"patching_rect" : [ 410.333344, 607.833313, 38.0, 19.0 ],
 									"style" : "",
-									"text" : "121 127",
+									"text" : "121 70",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -1477,8 +1759,8 @@
 									"id" : "obj-11",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "bang" ],
 									"patching_rect" : [ 141.333344, 325.0, 439.666656, 19.0 ],
 									"style" : "",
 									"text" : "jtol.bach.sieve @out nt",
@@ -2001,7 +2283,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 958.0, 212.0, 434.0, 666.0 ],
+										"rect" : [ 266.0, 249.0, 434.0, 666.0 ],
 										"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 										"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 										"bglocked" : 0,
@@ -3109,7 +3391,7 @@
 									"patching_rect" : [ 151.333344, 551.0, 46.0, 18.0 ],
 									"size" : 1,
 									"style" : "",
-									"values" : [ 0 ]
+									"values" : [ 1 ]
 								}
 
 							}
@@ -3161,9 +3443,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 151.333344, 607.833313, 43.0, 19.0 ],
+									"patching_rect" : [ 151.333344, 607.833313, 38.0, 19.0 ],
 									"style" : "",
-									"text" : "120 127",
+									"text" : "120 70",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -3233,6 +3515,16 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+									"destination" : [ "obj-10", 1 ],
+									"disabled" : 0,
+									"hidden" : 1,
+									"source" : [ "obj-11", 1 ]
 								}
 
 							}
@@ -3765,16 +4057,6 @@
 , 							{
 								"patchline" : 								{
 									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"destination" : [ "obj-10", 1 ],
-									"disabled" : 0,
-									"hidden" : 1,
-									"source" : [ "obj-7", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"destination" : [ "obj-11", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3851,7 +4133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.25, 544.0, 34.0, 19.0 ],
+					"patching_rect" : [ 635.25, 547.0, 34.0, 19.0 ],
 					"style" : "",
 					"text" : "op $1"
 				}
@@ -3868,7 +4150,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 508.75, 518.0, 78.0, 19.0 ],
+					"patching_rect" : [ 605.75, 521.0, 78.0, 19.0 ],
 					"style" : ""
 				}
 
@@ -3895,7 +4177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 396.5, 550.5, 56.0, 17.0 ],
+					"patching_rect" : [ 336.0, 547.0, 56.0, 17.0 ],
 					"style" : "",
 					"text" : "rotated grid",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -7280,7 +7562,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 1084.5, 41.0, 277.0, 17.0 ],
 									"style" : "",
-									"text" : "Polyrhythms : the grid is rotated until it fills the whole input duration",
+									"text" : "polyrhythms : the grid is rotated until it fills the whole input duration",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -9886,12 +10168,14 @@
 					"fontsize" : 12.0,
 					"gradient" : 0,
 					"id" : "obj-23",
+					"ignoreclick" : 1,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 267.0, 566.0, 193.0, 22.0 ],
+					"patching_rect" : [ 267.0, 566.0, 125.0, 22.0 ],
 					"style" : "",
+					"text" : "1/2 -1/2 1 1 1 1/2 -1/2",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -10002,6 +10286,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 30.0, 695.5, 233.0, 22.0 ],
 					"style" : "",
+					"text" : "( 1 1 1 ( 1 -1 ) 1 -1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -10032,8 +10317,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "bang" ],
 					"patching_rect" : [ 30.0, 522.5, 430.0, 19.0 ],
 					"style" : "",
 					"text" : "jtol.bach.sieve @grid rational @shiftdir >> @op intersection @out tt",
@@ -10352,9 +10637,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 51.0, 124.0, 21.0 ],
+					"patching_rect" : [ 30.0, 51.0, 149.0, 21.0 ],
 					"style" : "",
-					"text" : "filter tree with a grid",
+					"text" : "filter tree with a ring grid",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "zsa_description"
 				}
@@ -10631,6 +10916,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 39.5, 559.0, 253.5, 559.0 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 2 ]
 				}
 
 			}
