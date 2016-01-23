@@ -3683,7 +3683,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 959.0, 662.0, 152.0, 19.0 ],
 					"style" : "",
-					"text" : "2012-2015, Olivier Pasquet,"
+					"text" : "2012-2016, Olivier Pasquet,"
 				}
 
 			}

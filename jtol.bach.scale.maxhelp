@@ -708,7 +708,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 511.0, 451.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2015, Olivier Pasquet,",
+					"text" : "2016, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

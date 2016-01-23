@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 271.0, 290.0, 657.0, 452.0 ],
+		"rect" : [ 100.0, 100.0, 657.0, 452.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
@@ -115,9 +115,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.5, 262.0, 24.0, 17.0 ],
+					"patching_rect" : [ 165.5, 262.0, 19.0, 17.0 ],
 					"style" : "",
-					"text" : "nth",
+					"text" : "n",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -178,9 +178,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 345.0, 292.0, 23.0 ],
+					"patching_rect" : [ 60.0, 345.0, 248.0, 23.0 ],
 					"style" : "",
-					"text" : "( 1 2 3 4 ) ( 1 2 3 4 ) ( 1 2 3 4 ) ( 1 2 3 4 )",
+					"text" : "( 1 2 3 4 ) ( 1 2 3 4 ) ( 1 2 3 4 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -482,7 +482,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 425.0, 409.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2015, Olivier Pasquet,",
+					"text" : "2016, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -644,7 +644,7 @@
 					"destination" : [ "obj-77", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 69.5, 336.0, 342.5, 336.0 ],
+					"midpoints" : [ 69.5, 336.0, 298.5, 336.0 ],
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -733,28 +733,24 @@
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.rep.maxpat",
 				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.decomposenoi.maxpat",
 				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.recomposenoi.maxpat",
 				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -827,7 +823,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
