@@ -1518,7 +1518,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 187.0, 161.0, 55.0, 17.0 ],
 									"style" : "",
-									"text" : "note value",
+									"text" : "beat type",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -3701,7 +3701,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 258.0, 288.0, 55.0, 17.0 ],
 					"style" : "",
-					"text" : "note value",
+					"text" : "beat type",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

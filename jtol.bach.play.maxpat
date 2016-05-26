@@ -1106,7 +1106,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 490.0, 17.0, 52.0, 17.0 ],
 					"style" : "",
-					"text" : "note value",
+					"text" : "beat type",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -2042,7 +2042,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 163.0, 123.800003, 174.0, 37.0 ],
 									"style" : "",
-									"text" : "<--tempo for jtol.bach2score is always at quarter-note value (at the moment)\n=> 4 * 60000",
+									"text" : "<--tempo for jtol.bach2score is always at quarter-beat type (at the moment)\n=> 4 * 60000",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 

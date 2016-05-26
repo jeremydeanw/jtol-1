@@ -538,7 +538,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 330.0, 25.0, 32.0, 27.0 ],
 					"style" : "",
-					"text" : "note value",
+					"text" : "beat type",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 

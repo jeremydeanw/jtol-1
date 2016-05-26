@@ -592,7 +592,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 273.0, 288.0, 55.0, 17.0 ],
 					"style" : "",
-					"text" : "note value",
+					"text" : "beat type",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

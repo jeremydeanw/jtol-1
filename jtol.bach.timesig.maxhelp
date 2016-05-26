@@ -238,7 +238,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 318.0, 273.333313, 157.0, 17.0 ],
 					"style" : "",
-					"text" : "@note int >> note value (default 4)",
+					"text" : "@note int >> beat type (default 4)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -254,7 +254,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 199.0, 305.0, 55.0, 17.0 ],
 					"style" : "",
-					"text" : "note value",
+					"text" : "beat type",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

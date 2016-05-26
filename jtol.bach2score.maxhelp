@@ -2983,7 +2983,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 709.0, 301.0, 157.0, 17.0 ],
 					"style" : "",
-					"text" : "@note int >> note value (default 4)",
+					"text" : "@note int >> beat type (default 4)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3015,7 +3015,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 369.0, 308.0, 55.0, 17.0 ],
 					"style" : "",
-					"text" : "note value",
+					"text" : "beat type",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3486,7 +3486,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 17.0, 81.0, 330.0, 68.0 ],
 					"style" : "",
-					"text" : "jtol.bach2score gathers a time tree representation for bach.score.\nTime signature is calculated from incoming tree and note value.\nNotes all have the same pitch.\n\nThis abstraction requires the Bach library.\n",
+					"text" : "jtol.bach2score gathers a time tree representation for bach.score.\nTime signature is calculated from incoming tree and beat type.\nNotes all have the same pitch.\n\nThis abstraction requires the Bach library.\n",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "zsa_description[1]"
 				}
