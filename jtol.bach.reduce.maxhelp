@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 2,
+			"revision" : 4,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 669.0, 597.0 ],
+		"rect" : [ 793.0, 101.0, 669.0, 597.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
@@ -40,7 +40,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -52,15 +51,13 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 22.0, 416.0, 93.0, 62.0 ],
-					"textcolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"whole_tree_data_0000000000" : [ "(", 1, ")" ],
+					"whole_tree_data_0000000000" : [ "(", 1, 1, 1, ")" ],
 					"whole_tree_data_count" : [ 1 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -72,8 +69,7 @@
 					"out" : "nnnn",
 					"outlettype" : [ "", "", "", "", "bang" ],
 					"patching_rect" : [ 22.0, 306.0, 93.0, 62.0 ],
-					"textcolor" : [ 0.1, 0.1, 0.1, 1.0 ],
-					"whole_tree_data_0000000000" : [ "(", 1, "(", 1, 1, 1, ")", ")" ],
+					"whole_tree_data_0000000000" : [ "(", 3, "(", 1, 1, "(", 2, -3, "(", 5, 7, 9, ")", ")", ")", 1, ")" ],
 					"whole_tree_data_count" : [ 1 ]
 				}
 
@@ -382,7 +378,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 177.5, 468.0, 301.0, 29.0 ],
 					"style" : "",
-					"text" : "( 1 2 )",
+					"text" : "( 1 3 ) ( 1 5 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -409,7 +405,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 156.5, 428.0, 301.0, 29.0 ],
 					"style" : "",
-					"text" : "( 1 1 1 )",
+					"text" : "( 2 3 ) ( 1 1 1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -573,7 +569,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 388.5, 301.0, 29.0 ],
 					"style" : "",
-					"text" : "( 1 )",
+					"text" : "( 1 1 1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -641,15 +637,15 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 7,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 2,
+							"revision" : 4,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 196.0, 45.0, 844.0, 804.0 ],
+						"rect" : [ 621.0, 194.0, 844.0, 804.0 ],
 						"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
-		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+						"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 9.0,
@@ -698,7 +694,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 575.0, 395.833313, 154.0, 24.0 ],
 									"style" : "",
-									"text" : "( 5 )",
+									"text" : "( 2 2 3 1 1 )",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -741,9 +737,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 547.0, 695.0, 38.0, 19.0 ],
+									"patching_rect" : [ 547.0, 695.0, 43.0, 19.0 ],
 									"style" : "",
-									"text" : "30 127",
+									"text" : "127 127",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -792,7 +788,7 @@
 									"allowglissandi" : 0,
 									"bgcolor" : [ 0.94902, 0.94902, 0.941176, 1.0 ],
 									"cautionaryaccidentalsdecay" : 10,
-									"clefs" : "F",
+									"clefs" : [ "F" ],
 									"constraintbeamsinspaces" : 0,
 									"embed" : 0,
 									"fontface" : 0,
@@ -812,7 +808,7 @@
 									"out" : "nnnnnnnn",
 									"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
 									"patching_rect" : [ 540.0, 502.0, 285.0, 101.0 ],
-									"pitcheditrange" : "null",
+									"pitcheditrange" : [ "null" ],
 									"ruler" : 3,
 									"senddoneafterpaint" : 0,
 									"senddoneatstartup" : 0,
@@ -825,11 +821,11 @@
 									"slotwinalpha" : 92.0,
 									"spacingtype" : 1,
 									"spacingwidth" : 1.67,
-									"stafflines" : 5,
+									"stafflines" : [ 5 ],
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tonedivision" : 4,
 									"verboseundo" : 1,
-									"versionnumber" : 7810,
+									"versionnumber" : 7900,
 									"voicenames" : [ "(", ")" ],
 									"voicespacing" : [ 0.0, 26.0 ],
 									"zoom" : 99.055115
@@ -980,7 +976,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 38.0, 395.833313, 164.0, 24.0 ],
 									"style" : "",
-									"text" : "( 3 4 ( 2 3 ( 1 1 ) ) 4 3 )",
+									"text" : "( 2 ( 1 ( 3 1 ) 1 ) 2 3 1 1 )",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -990,7 +986,7 @@
 									"allowglissandi" : 0,
 									"bgcolor" : [ 0.94902, 0.94902, 0.941176, 1.0 ],
 									"cautionaryaccidentalsdecay" : 10,
-									"clefs" : "F",
+									"clefs" : [ "F" ],
 									"constraintbeamsinspaces" : 0,
 									"embed" : 0,
 									"fontface" : 0,
@@ -1010,7 +1006,7 @@
 									"out" : "nnnnnnnn",
 									"outlettype" : [ "", "", "", "", "", "", "", "", "bang" ],
 									"patching_rect" : [ 239.0, 502.0, 285.0, 101.0 ],
-									"pitcheditrange" : "null",
+									"pitcheditrange" : [ "null" ],
 									"ruler" : 3,
 									"senddoneafterpaint" : 0,
 									"senddoneatstartup" : 0,
@@ -1023,11 +1019,11 @@
 									"slotwinalpha" : 92.0,
 									"spacingtype" : 1,
 									"spacingwidth" : 1.67,
-									"stafflines" : 5,
+									"stafflines" : [ 5 ],
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tonedivision" : 4,
 									"verboseundo" : 1,
-									"versionnumber" : 7810,
+									"versionnumber" : 7900,
 									"voicenames" : [ "(", ")" ],
 									"voicespacing" : [ 0.0, 26.0 ],
 									"zoom" : 99.055115
@@ -1128,15 +1124,15 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 7,
-											"minor" : 0,
-											"revision" : 5,
+											"minor" : 2,
+											"revision" : 4,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
 ,
 										"rect" : [ 659.0, 45.0, 434.0, 668.0 ],
 										"bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
-		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
+										"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 9.0,
@@ -3662,7 +3658,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
