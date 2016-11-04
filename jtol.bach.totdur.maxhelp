@@ -3,13 +3,13 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 1,
+			"minor" : 3,
 			"revision" : 0,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 453.0, 214.0, 538.0, 385.0 ],
+		"rect" : [ 100.0, 100.0, 538.0, 385.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
@@ -40,15 +40,15 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.423529, 0.423529, 0.423529, 1.0 ],
+					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
 					"bgfillcolor_color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
-					"bgfillcolor_color1" : [ 0.423529, 0.423529, 0.423529, 1.0 ],
+					"bgfillcolor_color1" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_color2" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_proportion" : 0.39,
 					"bgfillcolor_type" : "gradient",
-					"fontface" : 1,
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"gradient" : 0,
@@ -94,7 +94,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 145.0, 113.0, 17.0 ],
+					"patching_rect" : [ 137.0, 140.0, 113.0, 17.0 ],
 					"style" : "",
 					"text" : "also works with rationals !",
 					"textcolor" : [ 1.0, 0.999939, 1.0, 1.0 ]
@@ -115,8 +115,8 @@
 					"numoutlets" : 2,
 					"out" : "n",
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 104.0, 318.0, 50.0, 20.0 ],
-					"text" : "0/1",
+					"patching_rect" : [ 104.0, 318.0, 50.0, 22.0 ],
+					"text" : "7/1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -140,7 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 68.800003, 144.0, 69.0, 22.0 ],
+					"patching_rect" : [ 68.0, 137.0, 69.0, 22.0 ],
 					"style" : "",
 					"text" : "( 1 1/5 2 3)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -166,7 +166,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 56.0, 123.0, 59.0, 22.0 ],
+					"patching_rect" : [ 56.0, 114.0, 59.0, 22.0 ],
 					"style" : "",
 					"text" : "( 1 1 2 3)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -192,7 +192,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.800003, 165.0, 103.0, 22.0 ],
+					"patching_rect" : [ 80.0, 160.0, 103.0, 22.0 ],
 					"style" : "",
 					"text" : "( 1 ( 1 1 1 ) 1 1 1)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -218,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 116.800003, 228.0, 214.0, 22.0 ],
+					"patching_rect" : [ 116.0, 229.0, 214.0, 22.0 ],
 					"style" : "",
 					"text" : "( 1 3 ( 1 1 ) 1 2 4 ( 3 -5 6 ) 1 ( -1 2 ) 6 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -244,7 +244,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 104.800003, 207.0, 184.0, 22.0 ],
+					"patching_rect" : [ 104.0, 206.0, 184.0, 22.0 ],
 					"style" : "",
 					"text" : "( 1 ( 1 1 ) 2 4 ( 3 -5 6 ) 1 ( -1 2 ) )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -290,7 +290,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.800003, 186.0, 186.0, 22.0 ],
+					"patching_rect" : [ 92.0, 183.0, 186.0, 22.0 ],
 					"style" : "",
 					"text" : "( 1 1 ( 1 1 ( 3 1 ) 1 ) 1 ( 3 2 1 ) 1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
