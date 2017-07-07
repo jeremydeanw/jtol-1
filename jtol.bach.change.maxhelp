@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -167,7 +167,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 162.0, 375.0, 208.0, 23.0 ],
 					"style" : "",
-					"text" : "( 1 1 1 ( 1 1 1 ) 1 )",
+					"text" : "( 1 1 1 1 )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -303,7 +303,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 163.0, 108.0, 69.0, 19.0 ],
+					"patching_rect" : [ 164.0, 108.0, 69.0, 19.0 ],
 					"style" : "",
 					"text" : "Bach library",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
@@ -369,7 +369,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
-					"patching_rect" : [ 162.0, 107.0, 71.0, 21.0 ]
+					"patching_rect" : [ 163.0, 107.0, 71.0, 21.0 ]
 				}
 
 			}
@@ -394,7 +394,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 179.0, 138.0, 197.0, 29.0 ],
+					"patching_rect" : [ 180.0, 138.0, 197.0, 29.0 ],
 					"style" : "",
 					"text" : ";\rmax launchbrowser http://www.bachproject.net",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
@@ -459,7 +459,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 431.0, 451.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2016, Olivier Pasquet,",
+					"text" : "2017, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -736,14 +736,12 @@
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.change.maxpat",
 				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.change.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -768,7 +766,7 @@
 				"type" : "iLaX"
 			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
