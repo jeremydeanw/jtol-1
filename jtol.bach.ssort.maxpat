@@ -1346,7 +1346,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 239.0, 183.0, 274.0, 17.0 ],
 									"style" : "",
-									"text" : "bach.append",
+									"text" : "bach.join",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -1365,7 +1365,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 144.0, 209.0, 185.0, 17.0 ],
 									"style" : "",
-									"text" : "bach.append",
+									"text" : "bach.join",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -4952,7 +4952,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 51.25, 587.5, 264.0, 17.0 ],
 													"style" : "",
-													"text" : "bach.append",
+													"text" : "bach.join",
 													"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 												}
 

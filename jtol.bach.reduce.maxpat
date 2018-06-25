@@ -456,7 +456,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 72.0, 308.666626, 107.0, 19.0 ],
 									"style" : "",
-									"text" : "bach.append 3",
+									"text" : "bach.join 3",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 

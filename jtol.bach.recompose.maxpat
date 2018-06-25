@@ -633,7 +633,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 224.0, 168.0, 274.0, 19.0 ],
 					"style" : "",
-					"text" : "bach.append",
+					"text" : "bach.join",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -652,7 +652,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 129.0, 194.0, 185.0, 19.0 ],
 					"style" : "",
-					"text" : "bach.append",
+					"text" : "bach.join",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 

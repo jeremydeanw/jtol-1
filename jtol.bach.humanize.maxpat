@@ -217,7 +217,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 276.0, 426.0, 63.0, 19.0 ],
 					"style" : "",
-					"text" : "bach.append",
+					"text" : "bach.join",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -1266,7 +1266,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 397.0, 445.333344, 78.0, 17.0 ],
 									"style" : "",
-									"text" : "bach.append",
+									"text" : "bach.join",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -3502,7 +3502,7 @@
 																									"outlettype" : [ "" ],
 																									"patching_rect" : [ 38.0, 203.0, 90.0, 17.0 ],
 																									"style" : "",
-																									"text" : "bach.append",
+																									"text" : "bach.join",
 																									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 																								}
 
@@ -8831,7 +8831,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 45.0, 216.75, 63.0, 17.0 ],
 																	"style" : "",
-																	"text" : "bach.append",
+																	"text" : "bach.join",
 																	"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 																}
 
@@ -13070,7 +13070,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.append.mxo",
+				"name" : "bach.join.mxo",
 				"type" : "iLaX"
 			}
 , 			{

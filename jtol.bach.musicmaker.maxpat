@@ -731,7 +731,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 98.0, 331.000031, 63.0, 17.0 ],
 									"style" : "",
-									"text" : "bach.append",
+									"text" : "bach.join",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -2312,7 +2312,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 74.5, 654.0, 63.0, 19.0 ],
 									"style" : "",
-									"text" : "bach.append",
+									"text" : "bach.join",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 
@@ -4266,7 +4266,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "bach.append.mxo",
+				"name" : "bach.join.mxo",
 				"type" : "iLaX"
 			}
 , 			{

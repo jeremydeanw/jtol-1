@@ -1758,7 +1758,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "bach.append",
+					"text" : "bach.join",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
