@@ -257,6 +257,20 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
+													"hidden" : 1,
+													"id" : "obj-30",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 1438.0, 114.0, 64.0, 19.0 ],
+													"style" : "",
+													"text" : "loadmess 1/2"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"format" : 6,
 													"id" : "obj-25",
 													"maxclass" : "flonum",
@@ -265,7 +279,6 @@
 													"outlettype" : [ "", "bang" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 1130.375, 143.5, 50.0, 19.0 ],
-													"presentation_rect" : [ 1132.0, 145.5, 0.0, 0.0 ],
 													"style" : ""
 												}
 
@@ -284,8 +297,7 @@
 													"out" : "n",
 													"outlettype" : [ "", "bang" ],
 													"patching_rect" : [ 1130.375, 185.0, 50.0, 19.0 ],
-													"presentation_rect" : [ 1106.0, 190.0, 0.0, 0.0 ],
-													"text" : "1/1"
+													"text" : "1/32"
 												}
 
 											}
@@ -297,7 +309,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1207.199951, 239.0, 50.0, 19.0 ],
-													"presentation_rect" : [ 1207.199951, 243.0, 0.0, 0.0 ],
 													"style" : "",
 													"text" : "no"
 												}
@@ -355,11 +366,11 @@
 													"id" : "obj-92",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 941.0, 122.0, 29.5, 19.0 ],
+													"numoutlets" : 3,
+													"outlettype" : [ "", "bang", "bang" ],
+													"patching_rect" : [ 941.0, 122.0, 87.5, 19.0 ],
 													"style" : "",
-													"text" : "t l b",
+													"text" : "t l b b",
 													"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 												}
 
@@ -383,12 +394,12 @@
 													"hidden" : 1,
 													"id" : "obj-88",
 													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 1330.0, 185.0, 64.0, 19.0 ],
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 1438.0, 143.5, 45.0, 19.0 ],
 													"style" : "",
-													"text" : "loadmess 1/2"
+													"text" : "del 1000"
 												}
 
 											}
@@ -574,7 +585,7 @@
 													"out" : "n",
 													"outlettype" : [ "", "bang" ],
 													"patching_rect" : [ 1330.0, 260.0, 50.0, 19.0 ],
-													"text" : "1999/1000"
+													"text" : "1/2"
 												}
 
 											}
@@ -1656,7 +1667,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 941.0, 295.0, 408.0, 19.0 ],
 													"style" : "",
-													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 3 @mod fixed @collect 0 @dur no",
+													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1/32 @voices 3 @mod fixed @collect 0 @dur no",
 													"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 												}
 
@@ -3396,6 +3407,14 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-88", 0 ],
+													"hidden" : 1,
+													"source" : [ "obj-30", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"color" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"destination" : [ "obj-26", 1 ],
 													"source" : [ "obj-31", 1 ]
@@ -3892,7 +3911,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-49", 0 ],
+													"destination" : [ "obj-40", 0 ],
 													"hidden" : 1,
 													"source" : [ "obj-88", 0 ]
 												}
@@ -3959,6 +3978,13 @@
 													"color" : [ 0.999999, 0.999974, 0.999991, 1.0 ],
 													"destination" : [ "obj-65", 0 ],
 													"source" : [ "obj-91", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-40", 0 ],
+													"source" : [ "obj-92", 2 ]
 												}
 
 											}
