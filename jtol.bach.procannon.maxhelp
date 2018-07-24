@@ -262,7 +262,7 @@
 													"maxclass" : "live.line",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 1568.25, 375.0, 5.0, 175.0 ]
+													"patching_rect" : [ 1583.25, 375.0, 5.0, 175.0 ]
 												}
 
 											}
@@ -357,7 +357,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 1578.25, 375.0, 52.0, 17.0 ],
+													"patching_rect" : [ 1593.25, 375.0, 52.0, 17.0 ],
 													"style" : "",
 													"text" : "durations",
 													"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -388,7 +388,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "list", "", "", "" ],
 													"outmode" : 2,
-													"patching_rect" : [ 1583.25, 396.0, 39.0, 66.0 ],
+													"patching_rect" : [ 1598.25, 396.0, 39.0, 66.0 ],
 													"precision" : 6,
 													"rowheight" : 20,
 													"rows" : 20,
@@ -774,7 +774,7 @@
  ]
 													}
 ,
-													"patching_rect" : [ 1583.25, 361.0, 44.0, 19.0 ],
+													"patching_rect" : [ 1598.25, 361.0, 44.0, 19.0 ],
 													"saved_object_attributes" : 													{
 														"description" : "",
 														"digest" : "",
@@ -1239,7 +1239,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1264.5, 239.0, 29.5, 19.0 ],
 													"style" : "",
-													"text" : "max"
+													"text" : "min"
 												}
 
 											}
@@ -1252,7 +1252,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1259.0, 264.5, 29.0, 19.0 ],
 													"style" : "",
-													"text" : "min"
+													"text" : "max"
 												}
 
 											}
@@ -1318,12 +1318,13 @@
 , 											{
 												"box" : 												{
 													"fontname" : "Arial Bold",
+													"fontsize" : 11.0,
 													"id" : "obj-94",
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 1252.0, 289.5, 29.0, 19.0 ],
+													"patching_rect" : [ 1252.0, 289.5, 29.0, 21.0 ],
 													"style" : "",
 													"text" : "no"
 												}
