@@ -681,7 +681,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 38.0, 398.0, 380.0, 19.0 ],
 									"style" : "",
-									"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 6 @mod fixed @collect 1 @dur no",
+									"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 6 @del fixed @collect 1 @dur no",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -3473,7 +3473,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 941.0, 325.0, 408.0, 19.0 ],
 													"style" : "",
-													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1/32 @voices 3 @mod fixed @collect 0 @dur no",
+													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1/32 @voices 3 @del fixed @collect 0 @dur no",
 													"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 												}
 
@@ -5124,7 +5124,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 38.0, 325.0, 408.0, 19.0 ],
 													"style" : "",
-													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 3 @mod fixed @collect 0 @dur min",
+													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 3 @del fixed @collect 0 @dur min",
 													"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 												}
 
@@ -8372,7 +8372,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 38.0, 252.0, 764.0, 19.0 ],
 													"style" : "",
-													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1/4 @voices 8 @mod fixed @collect 0 @dur no",
+													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1/4 @voices 8 @del fixed @collect 0 @dur no",
 													"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 												}
 
@@ -11410,7 +11410,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 23.0, 263.0, 615.0, 19.0 ],
 													"style" : "",
-													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 8 @mod fixed @collect 0 @dur min",
+													"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 8 @del fixed @collect 0 @dur min",
 													"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 												}
 
@@ -12379,7 +12379,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 678.0, 184.0, 176.0, 27.0 ],
 					"style" : "",
-					"text" : "@del fixed >> fixed durations (default)\n@del mul_min >> mul durations",
+					"text" : "@del fixed >> fixed durations (default)\n@del mul >> multiply first duration",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -13076,7 +13076,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 22.0, 454.0, 615.0, 19.0 ],
 					"style" : "",
-					"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 6 @mod fixed @collect 1 @dur min",
+					"text" : "jtol.bach.procannon @out n @depth 1 @steps 1 @voices 6 @del fixed @collect 1 @dur min",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -13381,14 +13381,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.procannon.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.decompose.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -13396,34 +13396,34 @@
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.recompose.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.setdur.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.totdur.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -13431,48 +13431,48 @@
 , 			{
 				"name" : "bach.-.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.sum.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filter.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.iter.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.branches.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.reduce.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.ratio.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -13480,48 +13480,48 @@
 , 			{
 				"name" : "bach.lcm.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.gcd.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.times.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.div.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.change.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach2score.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.timesig.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -13529,13 +13529,13 @@
 , 			{
 				"name" : "bach.abs.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.play.maxpat",
-				"bootpath" : "~/Documents/code/jtol",
+				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
