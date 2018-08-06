@@ -3,9 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
-			"revision" : 3,
-			"architecture" : "x86",
+			"minor" : 3,
+			"revision" : 5,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -39,6 +39,24 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-8",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 29.0, 347.0, 106.0, 19.0 ],
+					"presentation_rect" : [ 29.0, 347.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "also see 'bach.abs'.",
+					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
+					"varname" : "zsa_description[3]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"color" : [ 0.494118, 0.556863, 0.607843, 1.0 ],
@@ -612,7 +630,6 @@
 				"patchline" : 				{
 					"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"destination" : [ "obj-46", 0 ],
-					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-137", 1 ]
 				}
@@ -622,7 +639,6 @@
 				"patchline" : 				{
 					"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-3", 1 ]
 				}
@@ -632,8 +648,6 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"destination" : [ "obj-56", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-31", 0 ]
 				}
 
@@ -642,8 +656,6 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"destination" : [ "obj-56", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-33", 0 ]
 				}
 
@@ -652,8 +664,6 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"destination" : [ "obj-56", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -662,7 +672,6 @@
 				"patchline" : 				{
 					"color" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"destination" : [ "obj-22", 0 ],
-					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-5", 1 ]
 				}
@@ -672,8 +681,6 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"destination" : [ "obj-45", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"midpoints" : [ 38.5, 280.75, 296.5, 280.75 ],
 					"source" : [ "obj-56", 0 ]
 				}
@@ -683,8 +690,6 @@
 				"patchline" : 				{
 					"color" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"destination" : [ "obj-56", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-61", 0 ]
 				}
 
@@ -692,7 +697,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-9", 0 ]
 				}
@@ -721,9 +725,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "bach.filternull.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jtol.bach.recompose.maxpat",
 				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "bach.filter.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -792,6 +810,10 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bach.eq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "bach.insert.mxo",
 				"type" : "iLaX"
 			}
@@ -799,8 +821,16 @@
 				"name" : "bach.lt.mxo",
 				"type" : "iLaX"
 			}
+, 			{
+				"name" : "bach.neq.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bach.pick.mxo",
+				"type" : "iLaX"
+			}
  ],
-		"embedsnapshot" : 0
+		"autosave" : 0
 	}
 
 }
