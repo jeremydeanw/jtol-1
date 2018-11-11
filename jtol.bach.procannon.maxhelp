@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 950.0, 897.0 ],
+		"rect" : [ 203.0, 100.0, 950.0, 897.0 ],
 		"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 		"bglocked" : 0,
@@ -59,7 +59,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 75.0, 44.0, 706.0, 482.0 ],
+						"rect" : [ 397.0, 44.0, 710.0, 612.0 ],
 						"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 						"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 						"bglocked" : 0,
@@ -970,7 +970,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 75.0, 44.0, 233.0, 149.0 ],
+						"rect" : [ 1052.0, 56.0, 233.0, 149.0 ],
 						"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 						"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 						"bglocked" : 0,
@@ -1020,7 +1020,7 @@
 											"modernui" : 1
 										}
 ,
-										"rect" : [ 52.0, 174.0, 1655.0, 760.0 ],
+										"rect" : [ 242.0, 44.0, 1655.0, 760.0 ],
 										"bgcolor" : [ 0.278431, 0.278431, 0.278431, 1.0 ],
 										"editing_bgcolor" : [ 0.666667, 0.698039, 0.717647, 1.0 ],
 										"bglocked" : 0,
@@ -3667,7 +3667,7 @@
 													"out" : "n",
 													"outlettype" : [ "", "bang" ],
 													"patching_rect" : [ 427.0, 290.0, 50.0, 19.0 ],
-													"text" : "0/1"
+													"text" : "1/1"
 												}
 
 											}
@@ -13450,6 +13450,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "bach.change.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
+				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "jtol.bach.iter.maxpat",
 				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
 				"patcherrelativepath" : ".",
@@ -13500,13 +13507,6 @@
 			}
 , 			{
 				"name" : "bach.div.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bach.change.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/bach/patchers",
 				"patcherrelativepath" : "../../../Documents/Max 7/Packages/bach/patchers",
 				"type" : "JSON",
