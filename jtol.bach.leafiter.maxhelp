@@ -183,7 +183,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 448.0, 448.0, 238.0, 29.0 ],
 					"style" : "",
-					"text" : ";\rmax launchbrowser http://www.acsu.buffalo.edu/~jtrinker/",
+					"text" : ";\rmax launchbrowser http://www.jtrinker.com",
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 				}
 
@@ -262,7 +262,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 318.0, 417.0, 124.0, 19.0 ],
 					"style" : "",
-					"text" : "2018, Olivier Pasquet,",
+					"text" : "2019, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
