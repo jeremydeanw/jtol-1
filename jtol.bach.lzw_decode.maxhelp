@@ -48,6 +48,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 968.50390625, 465.5, 147.0, 27.0 ],
+					"presentation_linecount" : 2,
 					"text" : "@ratio 1/0 >> calculate compression ratio",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -64,6 +65,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 968.50390625, 425.0, 147.0, 37.0 ],
+					"presentation_linecount" : 3,
 					"text" : "@reduced OR @full >> full or reduced dict. reduced dict only shows used sub-sequences.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2765,6 +2767,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 563.833333333333371, 872.033345540364508, 143.8125, 133.0 ],
+					"rows" : 9,
 					"stcolor" : [ 0.8, 0.8, 0.901960784313726, 0.0 ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"vscroll" : 0
@@ -3095,7 +3098,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 293.0, 828.333333333333371, 239.0, 29.0 ],
-					"text" : "ACABCCAA",
+					"text" : "ACABCA",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3262,8 +3265,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 22.0, 139.5, 95.0, 29.0 ],
-					"text" : "ACABCAA",
+					"patching_rect" : [ 22.0, 139.5, 83.0, 29.0 ],
+					"text" : "ACABCA",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -3879,7 +3882,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
 					"patching_rect" : [ 22.0, 497.333333333333258, 142.0, 187.0 ],
-					"rows" : 8,
+					"rows" : 7,
 					"stcolor" : [ 0.8, 0.8, 0.901960784313726, 0.0 ],
 					"textcolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
 					"vscroll" : 0
@@ -4103,7 +4106,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 313.0, 388.5, 239.0, 29.0 ],
-					"text" : "1 2 1 3 2 5 1",
+					"text" : "1 2 1 3 2 1",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
