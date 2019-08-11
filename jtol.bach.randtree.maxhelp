@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 100.0, 100.0, 1241.0, 723.0 ],
+		"rect" : [ 100.0, 100.0, 1253.0, 732.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 9.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 996.50390625, 595.20001220703125, 119.0, 17.0 ],
+					"text" : "@seed: seed for randoms",
+					"textcolor" : [ 0.996078014373779, 0.996078014373779, 0.996078014373779, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.79,
@@ -57,7 +70,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 613.0, 666.0, 381.0, 29.0 ],
+					"patching_rect" : [ 510.0, 349.5, 465.0, 29.0 ],
 					"text" : "( 1 1 1 1 ) ( 1 ( 1 2 ) 1 ( 3 4 ) 1 ( 2 3 ) 1 ( 2 1 ) ) ( 1 ( 1 ( 2 3 ) 2 ( 2 3 ) ) 1 ( 3 ( 4 3 ) 4 ( 3 4 ) ) 1 ( 2 ( 1 1 ) 3 ( 1 1 ) ) 1 ( 2 ( 3 2 ) 1 ( 1 1 ) ) )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -70,12 +83,13 @@
 					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
+					"hidden" : 1,
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 819.0, 577.20001220703125, 82.0, 19.0 ],
+					"patching_rect" : [ 1067.50384521484375, 349.5, 82.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"versionnumber" : 80001
 					}
@@ -101,7 +115,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1747,6 +1761,9 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1758,12 +1775,9 @@
 									}
 ,
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1809,8 +1823,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1828,6 +1842,8 @@
 , 							{
 								"name" : "white/green",
 								"default" : 								{
+									"textcolor_inverse" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1841,9 +1857,7 @@
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"color" : [ 0.0, 1.0, 0.501961, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textcolor_inverse" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1980,7 +1994,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 996.50390625, 624.20001220703125, 97.0, 17.0 ],
+					"patching_rect" : [ 996.50390625, 647.20001220703125, 97.0, 17.0 ],
 					"text" : "@depth int >> depth",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -1995,7 +2009,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 996.50390625, 608.20001220703125, 147.0, 17.0 ],
+					"patching_rect" : [ 996.50390625, 631.20001220703125, 147.0, 17.0 ],
 					"text" : "@out n  (default) >> bach native",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2010,7 +2024,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 996.50390625, 592.20001220703125, 70.0, 17.0 ],
+					"patching_rect" : [ 996.50390625, 615.20001220703125, 70.0, 17.0 ],
 					"text" : "@out t >> text",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -2692,7 +2706,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5643,6 +5657,9 @@
 , 							{
 								"name" : "Luca",
 								"default" : 								{
+									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+									"fontname" : [ "Open Sans Semibold" ],
+									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5654,12 +5671,9 @@
 									}
 ,
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-									"fontname" : [ "Open Sans Semibold" ],
 									"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 									"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-									"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-									"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+									"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5705,8 +5719,8 @@
 , 							{
 								"name" : "newobjYellow-1",
 								"default" : 								{
-									"fontsize" : [ 12.059008 ],
-									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+									"fontsize" : [ 12.059008 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5724,6 +5738,8 @@
 , 							{
 								"name" : "white/green",
 								"default" : 								{
+									"textcolor_inverse" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "gradient",
 										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -5737,9 +5753,7 @@
 									"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 									"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 									"color" : [ 0.0, 1.0, 0.501961, 1.0 ],
-									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"textcolor_inverse" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+									"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5818,7 +5832,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1160.50390625, 708.0, 179.0, 29.0 ],
+					"patching_rect" : [ 1160.50390625, 723.0, 179.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://www.jtrinker.com",
 					"textcolor" : [ 0.101961001753807, 0.121569000184536, 0.172548994421959, 1.0 ]
 				}
@@ -5833,7 +5847,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1146.50390625, 677.0, 61.0, 19.0 ],
+					"patching_rect" : [ 1146.50390625, 692.0, 61.0, 19.0 ],
 					"text" : "JT Rinker",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -5851,7 +5865,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1003.50390625, 708.0, 45.0, 19.0 ],
+					"patching_rect" : [ 1003.50390625, 723.0, 43.0, 19.0 ],
 					"text" : "onecopy",
 					"textcolor" : [ 0.101961001753807, 0.121569000184536, 0.172548994421959, 1.0 ]
 				}
@@ -5878,7 +5892,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1065.8372802734375, 708.0, 180.0, 29.0 ],
+					"patching_rect" : [ 1065.8372802734375, 723.0, 180.0, 29.0 ],
 					"text" : ";\rmax launchbrowser http://www.opasquet.fr",
 					"textcolor" : [ 0.101961001753807, 0.121569000184536, 0.172548994421959, 1.0 ]
 				}
@@ -5893,7 +5907,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1030.50390625, 677.0, 124.0, 19.0 ],
+					"patching_rect" : [ 1030.50390625, 692.0, 124.0, 19.0 ],
 					"text" : "2019, Olivier Pasquet,",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -5910,7 +5924,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1146.50390625, 677.0, 60.0, 18.0 ]
+					"patching_rect" : [ 1146.50390625, 692.0, 60.0, 18.0 ]
 				}
 
 			}
@@ -5925,7 +5939,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1030.50390625, 677.0, 125.0, 18.0 ]
+					"patching_rect" : [ 1030.50390625, 692.0, 125.0, 18.0 ]
 				}
 
 			}
@@ -6016,7 +6030,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 126.0, 349.5, 368.0, 49.0 ],
+					"patching_rect" : [ 126.0, 349.5, 361.0, 49.0 ],
 					"text" : "( 1 ( 1 ( 2 3 ) 2 ( 2 3 ) ) 1 ( 3 ( 4 3 ) 4 ( 3 4 ) ) 1 ( 2 ( 1 1 ) 3 ( 1 1 ) ) 1 ( 2 ( 3 2 ) 1 ( 1 1 ) ) )",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -6153,7 +6167,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 993.50390625, 382.5, 211.0, 258.70001220703125 ],
+					"patching_rect" : [ 993.50390625, 382.5, 213.0, 281.70001220703125 ],
 					"proportion" : 0.39
 				}
 
@@ -6250,7 +6264,7 @@
 				"patchline" : 				{
 					"color" : [ 0.999999284744263, 0.999974429607391, 0.999991297721863, 1.0 ],
 					"destination" : [ "obj-25", 1 ],
-					"midpoints" : [ 135.5, 338.25, 484.5, 338.25 ],
+					"midpoints" : [ 135.5, 338.25, 477.5, 338.25 ],
 					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
@@ -6259,6 +6273,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
+					"hidden" : 1,
 					"order" : 0,
 					"source" : [ "obj-1", 1 ]
 				}
@@ -6548,6 +6563,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
+					"hidden" : 1,
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -6627,7 +6643,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "jtol.bach.randtree.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6635,41 +6651,41 @@
 , 			{
 				"name" : "bach.postpend.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.prod.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.filter.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.gcd.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.play.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.timesig.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6677,13 +6693,13 @@
 , 			{
 				"name" : "bach.abs.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.ratio.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6691,20 +6707,20 @@
 , 			{
 				"name" : "bach.-.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.lookup.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.totdur.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6712,55 +6728,55 @@
 , 			{
 				"name" : "bach.sum.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.change.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.lcm.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.times.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bach.div.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach2score.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.scramble.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.decompose.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6768,13 +6784,13 @@
 , 			{
 				"name" : "bach.filternull.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/bach/patchers",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/bach/patchers",
+				"patcherrelativepath" : "../../Max 8/Packages/bach/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jtol.bach.recompose.maxpat",
-				"bootpath" : "~/Dropbox/op_bach_tree/trees_Max_703",
+				"bootpath" : "~/Documents/code/jtol",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -6918,6 +6934,9 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -6929,12 +6948,9 @@
 					}
 ,
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"fontname" : [ "Open Sans Semibold" ],
 					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
 					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
-					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ]
+					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -6980,8 +6996,8 @@
 , 			{
 				"name" : "newobjYellow-1",
 				"default" : 				{
-					"fontsize" : [ 12.059008 ],
-					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+					"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ],
+					"fontsize" : [ 12.059008 ]
 				}
 ,
 				"parentstyle" : "",
@@ -6999,6 +7015,8 @@
 , 			{
 				"name" : "white/green",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -7012,9 +7030,7 @@
 					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
 					"elementcolor" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"color" : [ 0.0, 1.0, 0.501961, 1.0 ],
-					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textcolor_inverse" : [ 0.32549, 0.345098, 0.372549, 1.0 ]
+					"selectioncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
