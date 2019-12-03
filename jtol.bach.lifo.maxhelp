@@ -196,7 +196,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 389.5, 301.0, 29.0 ],
 					"style" : "",
-					"text" : "( E F G H ) ( I J K L )",
+					"text" : "[ E F G H ] [ I J K L ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -283,7 +283,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 244.0, 126.0, 19.0 ],
 					"style" : "",
-					"text" : "(A B C D ) (E F G H) (I J K L)",
+					"text" : "(A B C D ] (E F G H) (I J K L)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -336,7 +336,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 111.0, 348.5, 301.0, 29.0 ],
 					"style" : "",
-					"text" : "( A B C D )",
+					"text" : "[ A B C D ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 

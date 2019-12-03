@@ -589,7 +589,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 140.0, 18.0, 158.0, 17.0 ],
-									"text" : "case of ( x ( x x x ) ) and not ( x x x )"
+									"text" : "case of [ x [ x x x ] ] and not [ x x x ]"
 								}
 
 							}

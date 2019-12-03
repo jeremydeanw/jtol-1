@@ -275,7 +275,7 @@
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 89.0, 312.600006, 61.0, 19.0 ],
 									"style" : "",
-									"text" : "bach.find ( )",
+									"text" : "bach.find [ ]",
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 

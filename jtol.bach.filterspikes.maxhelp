@@ -45,7 +45,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 271.0, 143.0, 227.0, 19.0 ],
-					"text" : "( 1 2 3 ( ) ( 5 6 7 ) 4 )"
+					"text" : "[ 1 2 3 [ ] [ 5 6 7 ] 4 ]"
 				}
 
 			}
@@ -70,7 +70,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 216.571426000000002, 333.0, 173.0, 22.0 ],
 					"presentation_linecount" : 2,
-					"text" : "( 9 10 ( 1 2 ( ) ( 1 2 3 ) ) 11 12 )",
+					"text" : "[ 9 10 [ 1 2 [ ] [ 1 2 3 ] ] 11 12 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -95,7 +95,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 205.571426000000002, 306.0, 108.0, 19.0 ],
-					"text" : "( 9 10 ( 1 2 ( ) 3 ) 11 12 )",
+					"text" : "[ 9 10 [ 1 2 [ ] 3 ] 11 12 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -120,7 +120,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 177.571426000000002, 264.0, 80.0, 19.0 ],
-					"text" : "( 25 26 27 28 ) ( )",
+					"text" : "[ 25 26 27 28 ] [ ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -145,7 +145,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 191.571426000000002, 285.0, 80.0, 19.0 ],
-					"text" : "( 17 ) ( 18 19 20 )",
+					"text" : "[ 17 ] [ 18 19 20 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -170,7 +170,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.571426000000002, 201.0, 60.0, 19.0 ],
-					"text" : "( 5 6 7 8 ) ) )",
+					"text" : "[ 5 6 7 8 ] ] ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -195,7 +195,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 121.571426000000002, 180.0, 69.0, 19.0 ],
-					"text" : "( ( 9 10 11 12 )",
+					"text" : "[ [ 9 10 11 12 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -220,7 +220,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 163.571426000000002, 243.0, 80.0, 19.0 ],
-					"text" : "( ) ( 21 22 23 24 )",
+					"text" : "[ ] [ 21 22 23 24 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -245,7 +245,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 149.571426000000002, 222.0, 80.0, 19.0 ],
-					"text" : "( 13 ( ) 14 15 16 )",
+					"text" : "[ 13 [ ] 14 15 16 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -418,7 +418,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 159.0, 82.0, 19.0 ],
-					"text" : "( ( ( ( 1 2 3 4 ) ) ) )",
+					"text" : "[ [ [ [ 1 2 3 4 ] ] ] ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -444,7 +444,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 107.0, 396.5, 233.0, 29.0 ],
-					"text" : "( 1 2 3 ( 5 6 7 ) 4 )",
+					"text" : "[ 1 2 3 [ 5 6 7 ] 4 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -547,7 +547,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.0, 79.0, 213.0, 31.0 ],
-					"text" : "filterspikes filters spikes : (), )(, ((\nThis abstraction requires the Bach library.",
+					"text" : "filterspikes filters spikes : (), ](, ((\nThis abstraction requires the Bach library.",
 					"textcolor" : [ 0.93, 0.93, 0.97, 1.0 ],
 					"varname" : "zsa_description[1]"
 				}

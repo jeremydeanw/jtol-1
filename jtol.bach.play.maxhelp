@@ -240,7 +240,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 167.333328, 317.0, 62.0, 22.0 ],
 									"style" : "",
-									"text" : "( 1 1 1 1 )",
+									"text" : "[ 1 1 1 1 ]",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 								}
 
@@ -848,7 +848,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 196.0, 217.0, 253.0, 22.0 ],
 					"style" : "",
-					"text" : "( 1 1 1 1 ( -1 1 1 ) ) ( 1 1 1 1 ( 1 1 ( -1 4 ) -1 ) )",
+					"text" : "[ 1 1 1 1 [ -1 1 1 ] ] [ 1 1 1 1 [ 1 1 [ -1 4 ] -1 ] ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -906,7 +906,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 619.0, 261.333313, 205.0, 17.0 ],
 					"style" : "",
-					"text" : "( rest = 0 =>  count >= 0 => no rests - starts at 0)",
+					"text" : "[ rest = 0 =>  count >= 0 => no rests - starts at 0)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -932,7 +932,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 150.0, 143.0, 70.0, 22.0 ],
 					"style" : "",
-					"text" : "( -1 1 2 -1 )",
+					"text" : "[ -1 1 2 -1 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -949,7 +949,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 619.0, 237.333328, 187.0, 27.0 ],
 					"style" : "",
-					"text" : "( rest = 1 =>  count < 0 => rests - starts at 1\nneg count are rests)",
+					"text" : "[ rest = 1 =>  count < 0 => rests - starts at 1\nneg count are rests)",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1672,7 +1672,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 193.0, 184.0, 22.0 ],
 					"style" : "",
-					"text" : "( 1 ( 1 1 ) 2 4 ( 3 -5 6 ) 1 ( -1 2 ) )",
+					"text" : "[ 1 [ 1 1 ] 2 4 [ 3 -5 6 ] 1 [ -1 2 ] ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
@@ -1762,7 +1762,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 165.0, 168.0, 175.0, 22.0 ],
 					"style" : "",
-					"text" : "( 1 1 ( 1 1 3 1 1 ) 1 ( 3 2 1 ) 4 )",
+					"text" : "[ 1 1 [ 1 1 3 1 1 ] 1 [ 3 2 1 ] 4 ]",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
